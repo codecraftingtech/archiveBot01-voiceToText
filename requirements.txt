@@ -2,3 +2,11 @@ flask
 openai-whisper
 #imageio[ffmpeg]
 ffmpeg-binaries
+
+#--Descomentar y ejecutar cuando se cree un entorno virtual para el proyecto,
+#--Hubo problemas con la version del numpy ya que este proyecto corre con el numpy version 1 pero en nuestro 
+#--entorno global de Python es con la version 2 del numpy por eso hay que bajar la version a 1
+#--Este problema de versiones al parecer ocurre con el sistema de Mac (MacOS) ya que en Windows no existe este problema
+#--Al final usaremos un servidor Windows o Linux?, viendo estos dilemas.
+#numpy<2
+#torch
